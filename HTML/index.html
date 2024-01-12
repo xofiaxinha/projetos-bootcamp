@@ -37,9 +37,10 @@
         <!-- muda dependendo da linguagem do navegador -->
         <!-- <imput type="week">, funciona apenas no chrome e no edge-->
         <!-- <imput type="month">, funciona apenas no chrome e no edge-->
-        <label>Checkbox:</label> <input type="checkbox"></label> <input type="checkbox"><br>
+        <label>Checkbox:</label> <input type="checkbox" name="optional[]"></label> <input type="checkbox"><br>
         <!-- Imput de checkbox -->
-        <label>Radio: </label><input type="radio"/></label><input type="radio"/><br>
+        <label>Radio: </label><input type="radio" name="op"/></label><input type="radio" name="op"/><br>
+        <!--colocando os inputs com o mesmo nome o navegador reconhece como se fizessem parte do mesmo bloco-->
         <!-- Imput de radio -->
         <input type="hidden">
         <!-- Imput de informação escondido -->
@@ -47,6 +48,21 @@
         <!-- Imput de arquivo -->
         <!-- pode selecionar vários arquivos com o atributo multiple-->
         <!--<input type="search">, funciona apenas no chrome-->
+
+        <!-- Imput de botão -->
+        <button type="button">Botão</button>
+        <button type="reset">Resetar</button>
+        <button type="submit">Enviar</button>
+
+        <!-- Imput de select-->
+        <select name="Role">
+            <option value="1">Admin</option>
+            <option value="2">User</option>
+            <option value="3">Guest</option>
+        </select>
+
+        <!-- Imput de textarea-->
+        <textarea name="text" rows="10" cols="20"></textarea>
     </form>
 </body>
 </html>
