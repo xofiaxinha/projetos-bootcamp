@@ -9,5 +9,60 @@
     <p>Lorem <i>ipsum dolor</i> sit amet consectetur <strong>adipisicing</strong> elit. 
     Provident aspernatur a maxime hic fugiat accusantium tenetur suscipit mollitia cupiditate 
     tempora qui, <u>illum</u>, repellendus eveniet earum dolore, consectetur unde corrupti placeat.</p>
+    <div id="textdiv">
+        <p>
+            Isso é um texto que está dentro de uma div
+        </p>
+        <div id="textdiv2">
+            <p>
+                Isso é um texto que está dentro de uma div dentro de uma div
+            </p>
+        </div>
+
+        <!-- Usando a tag spam -->
+        <!-- A spam é como uma div que é mostrada em outro formato-->
+        <div>
+            Isso é um texto em uma div <span>que tem um trecho em span</span>
+        </div>
+    </div>
+    <style>
+        span{
+            color: red;
+        }
+        #textdiv{
+            background-color: blue;
+        }
+        #textdiv2{
+            background-color: green;
+        }
+    </style>
+
+    <!-- fieldset -->
+    <!-- serve para agrupar elementos de um formulário -->
+    <!-- formulário simples de exemplo -->
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome: </label> <input type="text" name="nome"><br>
+            <label>Idade: </label> <input type="number" name="idade" min="0" max="100"><br>
+            <label>Sexo:</label><input type="radio" name="sexo" value="M"/>Masculino<input type="radio" name="sexo" value="F"/>Feminino<input type="radio" name="sexo" value="I"/>Indefinido<br>
+            <label>Senha: </label> <input type="password" name="senha"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Contato</legend>
+            <label>Telefone: </label> <input type="text" name="telefone"><br>
+            <label>Email: </label> <input type="email" name="email"><br>
+        </fieldset>
+    </form>
+
+    <!-- Embeds -->
+    <h3>Embeds</h3>
+    <embed src="https://i.pinimg.com/564x/2a/ab/48/2aab487118a7733fc033e6fc2e2cac4c.jpg" width="200" height="200">
+    <p>Serve para anexar coisas de outros sites, mas não é mais utilizado.</p>
+
+    <!-- Iframes -->
+    <h3>Iframes</h3>
+    <iframe src="index.html" width="500" height="600"></iframe>
+    <p>Serve para anexar coisas de outros sites, como imagens, vídeos e até próprios sites.</p>
 </body>
 </html>
