@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de comissões</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Formulário de comissões</h1>
+    </div>
+    <div id="form">
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div id="row">
+                    <label>Nome: </label> <input type="text" name="nome"/><br>
+                    <label>Idade: </label> <input type="number" name="nome" min="10" max="100"/><br>
+                </div>
+                <div id="row">
+                    <label>Sexo: </label> <input type="radio" name="sexo" value="M"/>Masculino <input type="radio" name="sexo" value="F"/>Feminino <input type="radio" name="sexo" value="I"/>Indefinido<br>
+                    <label>Senha: </label> <input type="password" name="senha"/><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contato</legend>
+                <div id="row">
+                    <label>Telefone: </label> <input type="text" name="telefone"/><br>
+                    <label>Email: </label> <input type="email" name="email"/><br>
+                </div>
+            </fieldset>
+            <h3>Opções para comissão</h3>
+            <fieldset>
+                <legend>Estilo</legend>
+                <div id="row">
+                    <input type="radio" name="estiloDesenho" value="sketch"/>Sketch
+                    <input type="radio" name="estiloDesenho" value="lineart"/>Lineart
+                    <input type="radio" name="estiloDesenho" value="pb"/>Pintura Base
+                    <input type="radio" name="estiloDesenho" value="fr"/>Render completo
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Tamanho</legend>
+                <div id="row">
+                    <input type="radio" name="tamanhoDesenho" value="busto"/>Busto
+                    <input type="radio" name="tamanhoDesenho" value="meioCorpo"/>Meio corpo
+                    <input type="radio" name="tamanhoDesenho" value="corpoInteiro"/>Corpo inteiro
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Cor</legend>
+                <div id="row">
+                    <input type="radio" name="corDesenho" value="pb"/>Preto e branco
+                    <input type="radio" name="corDesenho" value="colorido"/>Colorido
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Fundo</legend>
+                <div id="row">
+                    <input type="radio" name="fundoDesenho" value="transparente"/>Transparente
+                    <input type="radio" name="fundoDesenho" value="simples"/>Simples
+                    <input type="radio" name="fundoDesenho" value="completo"/>Completo
+                </div>
+            </fieldset>
+        </form>
+        <button id="send">Enviar</button>
+    </div>
+</body>
+</html>
