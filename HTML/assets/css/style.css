@@ -10,8 +10,6 @@ body{
 fieldset{
     border: 0px;
     border-radius: 12px;
-    margin-top: 3px;
-    margin-bottom: 3px;
     background-color: #f8f7f774;
 }
 legend{
@@ -48,4 +46,27 @@ legend{
 [type="radio"]{
     margin-left: 10px;
     margin-right: 3px;
+}
+/*Usando seletores agrupados*/
+h1, h2, h3, h4, h5, h6{
+    color:#6f66c9;
+    font-weight: bold;
+    font-style: italic;
+}
+/* Usando combinadores */
+form h3{
+    margin-left: 10px;
+}
+/* commbinador filho */
+form > fieldset{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/* combinador irmão adjacente */
+label + input{
+    margin-left: 10px;
+}
+/* combinador irmão geral */
+label ~ input{
+    margin-left: 20px;
 }
