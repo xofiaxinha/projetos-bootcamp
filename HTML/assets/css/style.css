@@ -1,0 +1,51 @@
+/* Usando seletor universal */
+*{
+    font-family: 'Century Gothic', sans-serif;
+    color:#b06794;
+}
+/*Usando seletor de tag/tipo*/
+body{
+    background-color: #ECCBD9;
+}
+fieldset{
+    border: 0px;
+    border-radius: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #f8f7f774;
+}
+legend{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 20px;
+    color: #6f66c9;
+    font-weight: bold;
+    height: 20px;
+    margin: 2px 2px;
+}
+/*Usando seletor de id*/
+#divider{
+    background-color: #83BCFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*Usando seletor de classe*/
+.titulo{
+    color: #83BCFF;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 6px 6px;
+}
+
+/*Usando seletor de atributo*/
+[type="text"]{
+    border: 1px solid #83BCFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+[type="radio"]{
+    margin-left: 10px;
+    margin-right: 3px;
+}

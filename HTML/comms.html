@@ -1,27 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de comissões</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <div id="titulo">
+    <div class="titulo">
         <h1>Formulário de comissões</h1>
     </div>
-    <div id="form">
+    <div id="divider"> </div>
+    <div class="form">
         <form>
             <fieldset>
                 <legend>Dados pessoais</legend>
                 <div id="row">
                     <label>Nome: </label> <input type="text" name="nome"/><br>
-                    <label>Idade: </label> <input type="number" name="nome" min="10" max="100"/><br>
+                    <label>Idade: </label> <input type="number" name="idade" min="10" max="100"/><br>
                 </div>
                 <div id="row">
                     <label>Sexo: </label> <input type="radio" name="sexo" value="M"/>Masculino <input type="radio" name="sexo" value="F"/>Feminino <input type="radio" name="sexo" value="I"/>Indefinido<br>
                     <label>Senha: </label> <input type="password" name="senha"/><br>
                 </div>
             </fieldset>
+            <div id="divider"> </div>
             <fieldset>
                 <legend>Contato</legend>
                 <div id="row">
@@ -30,6 +33,7 @@
                 </div>
             </fieldset>
             <h3>Opções para comissão</h3>
+            <div id="divider"> </div>
             <fieldset>
                 <legend>Estilo</legend>
                 <div id="row">
@@ -39,6 +43,7 @@
                     <input type="radio" name="estiloDesenho" value="fr"/>Render completo
                 </div>
             </fieldset>
+            <div id="divider"> </div>
             <fieldset>
                 <legend>Tamanho</legend>
                 <div id="row">
@@ -47,6 +52,7 @@
                     <input type="radio" name="tamanhoDesenho" value="corpoInteiro"/>Corpo inteiro
                 </div>
             </fieldset>
+            <div id="divider"> </div>
             <fieldset>
                 <legend>Cor</legend>
                 <div id="row">
@@ -54,6 +60,7 @@
                     <input type="radio" name="corDesenho" value="colorido"/>Colorido
                 </div>
             </fieldset>
+            <div id="divider"> </div>
             <fieldset>
                 <legend>Fundo</legend>
                 <div id="row">
