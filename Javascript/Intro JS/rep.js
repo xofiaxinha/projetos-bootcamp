@@ -5,9 +5,6 @@ function tabuada(n){
         console.log(n + " x " + i + " = " + n*i);
     }
 }
-
-tabuada(5);
-
 // 2º Dado um número, imprima todos os números pares de 0 até o número
 function pares(n){
     for(let i = 0; i <= n; i++){
@@ -16,4 +13,3 @@ function pares(n){
         }
     }
 }
-pares(10);
